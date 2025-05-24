@@ -1,18 +1,18 @@
 /* App.css - OctoFit Tracker 基本樣式 */
 body {
-  background: linear-gradient(135deg, #e0e7ff 0%, #f8fafc 100%);
-  color: #22223b;
+  background: linear-gradient(135deg, #ffe29f 0%, #ffa07a 100%);
+  color: #5a2a00;
   min-height: 100vh;
 }
 
 .card {
   border-radius: 1rem;
-  background: #fff;
-  box-shadow: 0 2px 16px rgba(80, 80, 160, 0.08);
+  background: #fff8f0;
+  box-shadow: 0 2px 16px rgba(255, 140, 0, 0.08);
 }
 
 .navbar {
-  background: linear-gradient(90deg, #4f8cff 0%, #6ee7b7 100%) !important;
+  background: linear-gradient(90deg, #ff9800 0%, #ff7043 100%) !important;
   color: #fff !important;
 }
 
@@ -29,59 +29,59 @@ body {
 }
 
 .navbar .nav-link.active, .navbar .nav-link:hover {
-  color: #22223b !important;
+  color: #ff7043 !important;
   background: rgba(255,255,255,0.2);
   border-radius: 0.5rem;
 }
 
 h1, h2, h3, .card-title {
-  color: #4f8cff;
+  color: #ff7043;
   font-weight: 700;
 }
 
 a, .btn-link {
-  color: #4f8cff;
+  color: #ff9800;
   text-decoration: underline;
 }
 
 a:hover, .btn-link:hover {
-  color: #22223b;
+  color: #d84315;
 }
 
 .table {
-  background: #f1f5ff;
+  background: #fff3e0;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
 .table thead {
-  background: #4f8cff;
+  background: #ff9800;
   color: #fff;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background: #e0e7ff;
+  background: #ffe0b2;
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, #4f8cff 0%, #6ee7b7 100%);
+  background: linear-gradient(90deg, #ff9800 0%, #ff7043 100%);
   border: none;
   color: #fff;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(80, 80, 160, 0.08);
+  box-shadow: 0 2px 8px rgba(255, 140, 0, 0.08);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(90deg, #6ee7b7 0%, #4f8cff 100%);
-  color: #22223b;
+  background: linear-gradient(90deg, #ff7043 0%, #ff9800 100%);
+  color: #fff3e0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4f8cff;
+  background: #ff9800;
   border-radius: 8px;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background: #e0e7ff;
+  background: #ffe0b2;
 }
