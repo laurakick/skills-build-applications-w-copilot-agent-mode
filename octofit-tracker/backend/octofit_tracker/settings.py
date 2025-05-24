@@ -133,3 +133,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Allow all origins for CORS
 CORS_ALLOW_ALL_ORIGINS = True
+
+# Codespace Django REST API endpoint suffix for use in API links
+CODESPACE_API_SUFFIX = 'laughing-acorn-9qq9757x6rgf4v5-8000.app.github.dev'
