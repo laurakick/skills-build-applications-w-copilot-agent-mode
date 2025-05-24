@@ -79,11 +79,14 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "djongo",
-        "NAME": "octofit_db",
-        "HOST": "localhost",
-        "PORT": 27017,
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
+}
+
+# MongoDB 連線設定（僅供自訂業務邏輯使用，不作為 Django ORM 預設資料庫）
+MONGODB_SETTINGS = {
+    'host': 'mongodb://localhost:27017/octofit_db',
 }
 
 
